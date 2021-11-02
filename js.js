@@ -1,10 +1,9 @@
-const canvas = document.getElementById("chessboard");
-let ctx = canvas.getContext("2d");
-// Colors
-let lightCellColor = "#F7B384";
-let darkCellColor = "#6E2D00";
-
 window.addEventListener("load", () => {
+  const canvas = document.getElementById("chessboard");
+  let ctx = canvas.getContext("2d");
+  // Colors
+  let lightCellColor = "#F7B384";
+  let darkCellColor = "#6E2D00";
   // Frame
   ctx.strokeStyle = "black";
   ctx.strokeRect(250, 50, 400, 400);
